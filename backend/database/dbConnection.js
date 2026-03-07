@@ -14,4 +14,4 @@ dotenv.config()
     })
     
 }
-export default dbConnection;
+export default dbConnection; 

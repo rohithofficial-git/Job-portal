@@ -10,7 +10,7 @@ function Footer() {
     <footer className= {isAuthorized ? "footerShow" : "footerHide"}>
 <div>&copy; All Rights Reserved by Rohith.</div>
 <div>
-  <Link to={'https://github.com/exclusiveabhi'} target='github'><FaGithub></FaGithub></Link>
+  <Link to={'https://github.com/rohithofficial-git/Job-portal.git'} target='github'><FaGithub></FaGithub></Link>
   <Link to={'https://www.linkedin.com/in/rohith-m-2k5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'} target='linkedin'><FaLinkedin></FaLinkedin ></Link>
   <Link to={'https://www.instagram.com/rohidz._?igsh=MTNweHI0bDV0b29xZA=='} target='instagram'><RiInstagramFill></RiInstagramFill></Link>
 </div>
