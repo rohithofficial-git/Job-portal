@@ -27,6 +27,7 @@ const Login = () => {
           withCredentials: true,
         }
       );
+      localStorage.setItem("token", data.token);
       toast.success(data.message);
       setEmail("");
       setPassword("");

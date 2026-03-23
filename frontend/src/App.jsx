@@ -32,6 +32,7 @@ const App = () => {
         setUser(response.data.user);
         setIsAuthorized(true);
       } catch (error) {
+        localStorage.removeItem("token");
         setIsAuthorized(false);
       }
     };

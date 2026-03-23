@@ -19,6 +19,7 @@ const Navbar = () => {
           withCredentials: true,
         }
       );
+      localStorage.removeItem("token");
       toast.success(response.data.message);
       setIsAuthorized(false);
       navigateTo("/login");
